@@ -1,0 +1,18 @@
+Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+
+Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+
+Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+
+
+1.nosql (Not only SQL) adalah database non tabluar, dimana datanya disimpan berbeda dari database relational, dari yang kemarin diajarkan biasanya dalam bentuk dokumen, key-value stores, wide -column dan graph.
+  nosql memiliki kinerja 
+
+2. nosql digunakan ketika menghadapi:
+	- development agile fast-paced
+	- data yang semi-structured atau unstructured
+	- skala data besar
+	- real-time data streaming
+	
+3. mongoDB: skemanya fleksibel, mampu mengolah beban data besar, performa tinggi
+   cassandra: mampu bekerja dengan kluster server yang besar tanpa mengurangi performa, memiliki node yang banyak dan setiap node bisa dilakukan replikasi data untuk failsave jika terjadi kegagalan, read/write performance tinggi.
